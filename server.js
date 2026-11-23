@@ -1,0 +1,13 @@
+const express = require('express');
+const cors = require('cors');
+const recordsRouter = require('./routes/records');
+const app = express();
+const PORT = process.env.PORT || 3000;
+app.use(cors());
+app.use(express.json());
+app.get('/', (req, res) => res.type('html').send(`<!doctype html><html><head><title>Activity 7 API</title></head><body><h1>Study Support Requests API</h1><p>Backend is running.</p><ul><li>GET <a href="/health">/health</a> — health check</li><li>GET <a href="/api/records">/api/records</a> — list records</li><li>POST /api/records — create record</li><li>GET /api/records/:id — get record</li><li>PUT /api/records/:id — update record</li><li>DELETE /api/records/:id — delete record</li></ul></body></html>`));
+app.get('/health', (req, res) => res.json({ status: 'ok', storage: 'json-file' }));
+app.use('/api/records', recordsRouter);
+app.use((req, res) => res.status(404).json({ error: 'Route not found' }));
+app.use((err, req, res, next) => { console.error(err); res.status(500).json({ error: 'Internal server error' }); });
+app.listen(PORT, () => console.log(`Activity 7 API running at http://localhost:${PORT}`));

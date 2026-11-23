@@ -1,0 +1,65 @@
+[
+  {
+    "id": 2,
+    "title": "CSS layout support",
+    "description": "Help understanding flexbox layout.",
+    "status": "in-progress",
+    "createdAt": "2026-11-22T08:05:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript functions",
+    "description": "Practice writing and calling functions.",
+    "status": "pending",
+    "createdAt": "2026-11-22T08:10:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Form validation",
+    "description": "Review validation for a web form.",
+    "status": "completed",
+    "createdAt": "2026-11-22T08:15:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Responsive design",
+    "description": "Make a page work on mobile screens.",
+    "status": "pending",
+    "createdAt": "2026-11-22T08:20:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "API practice",
+    "description": "Understand GET and POST requests.",
+    "status": "in-progress",
+    "createdAt": "2026-11-22T08:25:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Database concepts",
+    "description": "Study tables, rows, and keys.",
+    "status": "pending",
+    "createdAt": "2026-11-22T08:30:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Project troubleshooting",
+    "description": "Request help debugging a project.",
+    "status": "completed",
+    "createdAt": "2026-11-22T08:35:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "Help with Java",
+    "description": "I need assistance understanding Java programming",
+    "status": "pending",
+    "createdAt": "2026-11-23T19:35:12.610Z"
+  },
+  {
+    "id": 10,
+    "title": "Testing invalid status",
+    "description": "Testing backend validation",
+    "status": "pending",
+    "createdAt": "2026-11-23T20:00:24.037Z"
+  }
+]
